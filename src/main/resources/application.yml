@@ -1,0 +1,14 @@
+server:
+  port: 8504
+
+logging:
+  level:
+    root: info
+    com.felix: debug
+  customize:
+    appender: console
+
+spring:
+  application:
+    name: spring-boot-pure
+
